@@ -17,9 +17,9 @@ do
 	end
 
 	Library = {
-		Accent = Color3.fromRGB(19, 128, 225);
-		Inline = Color3.fromRGB(31, 28, 54);
-		Background = Color3.fromRGB(17, 16, 31);
+		Accent = Color3.fromRGB(255, 30, 230);
+		Inline = Color3.fromRGB(20, 20, 20);
+		Background = Color3.fromRGB(20, 20, 20);
 		Text = Color3.fromRGB(117,146,230);
 		TextInactive = Color3.fromRGB(135,135,135);
 		Border = Color3.fromRGB(35,35,35);
@@ -177,7 +177,7 @@ do
 		Library.Holder = Objects["moonlightremake"];
 	end;
 
-	local Typeface = loadstring(game:HttpGet("https://raw.githubusercontent.com/prexcota/testing-scripts/refs/heads/main/Register.lua"))()
+	local Typeface = loadstring(game:HttpGet("https://raw.githubusercontent.com/skibidicc/124/refs/heads/main/12142"))()
 	local LibFont = Typeface:Register("Typefaces", {
 		name = "smallest pixel",
 		weight = "Regular",
